@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Amlan Das</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Amlan Das</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="featured.html">Featured Work</a>
+      <a href="contact.html" class="active">Contact</a>
+      <select id="themeSelector">
+        <option value="default">Default</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="purple">Purple</option>
+      </select>
+      <button id="darkModeToggle">🌙</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="contact-section" data-aos="fade-up">
+      <h1>Get in Touch</h1>
+      <p>If you'd like to collaborate, discuss ideas, or just connect — drop a message!</p>
+
+      <form action="mailto:Amlaan.das2014@gmail.com" method="POST" enctype="text/plain" class="contact-form" data-aos="fade-up">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info" data-aos="fade-up">
+        <p>📧 Email: <a href="mailto:Amlaan.das2014@gmail.com">Amlaan.das2014@gmail.com</a></p>
+        <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/amlan-das-600839140/">amlan-das</a></p>
+        <p>🌐 Website: <a href="https://amlandas.in">amlandas.in</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>📧 <a href="mailto:Amlaan.das2014@gmail.com">Amlaan.das2014@gmail.com</a></p>
+    <p>🌐 <a href="https://amlandas.in">amlandas.in</a></p>
+    <p>🔗 <a href="https://www.linkedin.com/in/amlan-das-600839140/">LinkedIn</a></p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
