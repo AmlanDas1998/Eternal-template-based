@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lab | Amlan Das</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Amlan Das</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="featured.html">Featured Work</a>
+      <a href="contact.html">Contact</a>
+      <a href="now.html">Now</a>
+      <a href="lab.html" class="active">Lab</a>
+      <select id="themeSelector">
+        <option value="default">Default</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="purple">Purple</option>
+      </select>
+      <button id="darkModeToggle">🌙</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="lab-section" data-aos="fade-up">
+      <h1>🧪 The Lab</h1>
+      <p>Welcome to my sandbox – where I prototype ideas, calculators, and micro-tools.</p>
+
+      <div class="lab-grid">
+        <div class="lab-card" data-aos="fade-up">
+          <h3>🧮 Loan EMI Visualizer</h3>
+          <p>Try an interactive EMI calculator built with JavaScript & charts.</p>
+          <a href="#" class="button">Launch Demo</a>
+        </div>
+        <div class="lab-card" data-aos="fade-up" data-aos-delay="100">
+          <h3>📈 DPI Data Explorer</h3>
+          <p>Explore India's digital public infrastructure datasets visually.</p>
+          <a href="#" class="button">Open Visual</a>
+        </div>
+        <div class="lab-card" data-aos="fade-up" data-aos-delay="200">
+          <h3>🔐 AA Consent Simulator</h3>
+          <p>Simulate a basic consent flow using mock Account Aggregator APIs.</p>
+          <a href="#" class="button">Try it</a>
+        </div>
+        <div class="lab-card" data-aos="fade-up" data-aos-delay="300">
+          <h3>📊 Resume Analyzer</h3>
+          <p>Upload your CV and get instant visual feedback + scoring.</p>
+          <a href="#" class="button">Analyze CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>📧 <a href="mailto:Amlaan.das2014@gmail.com">Amlaan.das2014@gmail.com</a></p>
+    <p>🌐 <a href="https://amlandas.in">amlandas.in</a></p>
+    <p>🔗 <a href="https://www.linkedin.com/in/amlan-das-600839140/">LinkedIn</a></p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
